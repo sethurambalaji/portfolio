@@ -1,5 +1,5 @@
 html{
-    
+    font-family:'Merriweather','pridi';
 }
 h1{
     color:white;
@@ -9,12 +9,26 @@ h1{
 }    
 header{
     display:block;
-    text-transform: uppercase;
-    font-family:'Merriweather','pridi';
+    text-transform: uppercase;    
     font-weight:600;
     font-size:xx-large;
-    background-color: #213448;
+    background-color: #547792;
     margin:0;
     height:200px;
     align-content: center;
+}
+nav{
+    background-color: #213448;
+    margin-top:0;
+}
+nav ul{
+    display:flex;
+    margin-top: 0;
+    justify-content: space-evenly;
+    padding: 10px 200px 10px 50px;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    color:white;
 }
